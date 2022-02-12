@@ -1,5 +1,6 @@
 # DJI-Mavic-pro-simlified-modelling-and-simulation 
 Th objectives of this project are to establish the mathematical model and the physics behind a four propeller drone modelled after the DJI Mavic Pro, design a SIMULINK model simulating the complete dynamics of the drone as well as location and gusts and finally, design and implement a PID controller to control its position and attitude. 
+** The SIMULINK models are provided for Matlab 2021a and 2018b **  
 ## The simplified DJI Mavic pro 
 ![](Images/drone_model.PNG)
 
