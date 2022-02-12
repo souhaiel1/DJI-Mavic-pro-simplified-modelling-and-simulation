@@ -70,7 +70,6 @@ As a good approximation we can apply 𝐼 = 1/3 * 𝑀𝐿² , L now being the d
 ![](Images/yawrollmoment.PNG)
 
 ## Actuations : Momemnts and Disturbances
-
 ### Torques and propeller rotation 
 
 - The torques necessary to rotate each propellers also act on the drone.
@@ -103,10 +102,10 @@ The drag is modeled in the most simple way possible :
 - In the x and y directions we use the constant projected area estimated in the design brief: A=0.0197m², the drag Coefficient Cd of a cube: 1.00 as well as the air density at sea level: ρ = 1.225 𝑘𝑔. 𝑚−3
 - In the z direction, we use the same coefficient of drag and air density but double the area as we have two beams crossing eachother and add 30% to take into account the rotors: A=0.0512m².
 
-In reality, projected area varies with respect to the pitch and roll of the aircraft as well as direction of flight : 𝐷𝑟𝑎𝑔 = 1/2 ∗ ρ ∗ 𝑉²𝑤𝑖𝑛𝑑 ∗ A * 𝐶d
+In reality, projected area varies with respect to the pitch and roll of the aircraft as well as direction of flight :
+ 𝐷𝑟𝑎𝑔 = 1/2 ∗ ρ ∗ 𝑉²𝑤𝑖𝑛𝑑 ∗ A * 𝐶d
 
 ## Thrust Vectors and Linear Forces
-
 ### Roll and Pitch Thrust Vectors
 ![](Images/rollpitcthrust.PNG)
 
